@@ -1,0 +1,139 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #E0F7FA;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar Styling */
+nav {
+    background-color: #0D47A1;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+nav .logo-container {
+    display: flex; 
+    align-items: center; 
+}
+
+nav .logo {
+    font-size: 24px;
+    color: #00D1CD;
+    font-weight: bold;
+    text-decoration: underline; 
+    margin-left: 10px; 
+}
+
+nav img {
+    width: 40px; 
+    height: auto; 
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #1565C0;
+    border-radius: 5px;
+}
+
+/* tombol kembali */
+.button.back-button {
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding for the button */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    display: inline-block; /* Make it behave like a button */
+    margin-bottom: 20px; /* Space between button and form */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.button.back-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+
+/* Form Container Styling */
+.form-container {
+    background-color: white;
+    width: 50%;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+    text-align: center;
+    color: #0D47A1;
+    font-weight: bold;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-container form label {
+    width: 80%;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.form-container form input, 
+.form-container form select {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.form-container form input[type="submit"] {
+    width: 50%;
+    background-color: #03A9F4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.form-container form input[type="submit"]:hover {
+    background-color: #0288D1;
+}
+
+/* Footer (if any) */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #0D47A1;
+    color: white;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
